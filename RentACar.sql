@@ -1,6 +1,6 @@
-﻿create database RentACar1
+﻿create database RentACar
 
-use RentACar1
+use RentACar
 
 
 CREATE TABLE Vehicles (
@@ -78,7 +78,6 @@ insert into Vehicles(Brand,Model, Colour,VehicleTypeName,SummerPricePerHafDay,Wi
 ('Piaggio','Typhoon','White','motor<500', 250.00, 200.00,NULL),
 ('Malaguti','Madison','Metallic','motor<500', 250.00, 200.00,NULL)
 
-select * from Vehicles
 
 insert into VehicleRents(VehicleId,EmployeeId,RentStartDate,RentEndDate,RentStartFullDay,RentEndFullDay, 
 PurchaserFirstName,PurchaserLastName,PurchaserOIB, PurchaserDrivingLicenceNumber,PurchaserCreditCardNumber) VALUES
